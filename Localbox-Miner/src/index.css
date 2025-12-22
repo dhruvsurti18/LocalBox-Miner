@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 2%;
+}
+
+.app-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 3%;
+  background: white;
+  padding: 2%;
+  border: 1px solid #ddd;
+}
+
+.app-header h1 {
+  font-size: 2em;
+  margin-bottom: 1%;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.dashboard {
+  background: white;
+  padding: 2%;
+  border: 1px solid #ddd;
+  margin-bottom: 2%;
+}
+
+.dashboard h2 {
+  margin-bottom: 2%;
+}
+
+.dashboard button {
+  padding: 1% 2%;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.dashboard button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.stats {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.stat {
+  background: #f9f9f9;
+  padding: 2%;
+  border: 1px solid #eee;
+  margin-bottom: 1%;
+}
+
+.stat h3 {
+  font-size: 0.9em;
+  margin-bottom: 1%;
+  color: #666;
+}
+
+.stat p {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.form-container {
+  background: white;
+  padding: 2%;
+  border: 1px solid #ddd;
+  margin-bottom: 2%;
+}
+
+.form-container h2 {
+  margin-bottom: 2%;
+}
+
+.form-container div {
+  margin-bottom: 2%;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 1%;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid #ddd;
+  font-size: 0.9em;
+  font-family: Arial, sans-serif;
+}
+
+.button-group {
+  display: flex;
+  gap: 1%;
+  margin-top: 2%;
+}
+
+.button-group button {
+  padding: 1% 2%;
+  background: #4444ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  flex: 1;
+}
+
+.button-group button:last-child {
+  background: #212121;
+  color: white;
+}
+
+.list-container {
+  background: white;
+  padding: 2%;
+  border: 1px solid #ddd;
+  margin-bottom: 2%;
+}
+
+.list-container h2 {
+  margin-bottom: 2%;
+}
+
+.list-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.list-container th {
+  background: #f5f5f5;
+  padding: 1%;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  font-weight: bold;
+}
+
+.list-container td {
+  padding: 1%;
+  border-bottom: 1px solid #eee;
+}
+
+.list-container button {
+  padding: 15px;
+  margin-right: 1%;
+  background: #4444ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.list-container button:last-child {
+  background: #ff4444;
+  margin-right: 0;
+}
+
+.no-records {
+  background: white;
+  padding: 2%;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #999;
+}
